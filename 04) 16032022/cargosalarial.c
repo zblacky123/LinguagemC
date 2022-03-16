@@ -8,6 +8,8 @@ ao while e passa a executar os comandos após do bloco while. Se a condição fo
 então executa cada um dos comandos do bloco subordinado WHILE 
 */ 
 
+//clrscr();  //comando para limpar a tela // clear screen (limpar tela)
+
 #include <stdio.h>
 
 int main(){
