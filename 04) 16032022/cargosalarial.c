@@ -46,11 +46,11 @@ int main(){
                 break;
                 
             default:
-                printf("\nFora de área... Deseja voltar ao Menu Principal ? (y/n)\n");
-                scanf("%s", &escolha);
+                printf("\nFora de área...");
                         break;
-
         }
+        printf("\n\n\tDeseja voltar ao Menu Principal ? (y/n)\n\tSua Escolha: ");
+        scanf("%s", &escolha);
 
     }while(escolha=='y');
     
