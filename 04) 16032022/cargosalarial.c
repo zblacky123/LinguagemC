@@ -23,32 +23,32 @@ int main(){
 
         switch (num){
             case 1:
-                printf("\nO Salario do Diretor é de: R$15.000,00\n\n");
+                printf("\n\nO Salario do Diretor é de: R$15.000,00\n\n");
 
                 break;
 
             case 2:
-                printf("\nO Salario do Gerente é de: R$12.000,00\n\n");
+                printf("\n\nO Salario do Gerente é de: R$12.000,00\n\n");
 
                 break;
 
             case 3:
-                printf("\nO Salario do Analista é de: R$8.000,00\n\n");
+                printf("\n\nO Salario do Analista é de: R$8.000,00\n\n");
 
                 break;
             
             case 4:
-                printf("\nO Salário do Assistente é de: R$4.000.00\n\n");
+                printf("\n\nO Salário do Assistente é de: R$4.000.00\n\n");
 
                 break;
 
             case 5:
-                printf("\nO Salário do Auxiliar é de: R$2.000,00\n\n");
+                printf("\n\nO Salário do Auxiliar é de: R$2.000,00\n\n");
 
                 break;
                 
             default:
-                printf("\nFora de área...");
+                printf("\n\n\tFora de área...");
                         break;
         }
         printf("\n\n\tDeseja voltar ao Menu Principal ? (y/n)\n\tSua Escolha: ");
