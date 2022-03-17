@@ -8,17 +8,17 @@ ao while e passa a executar os comandos após do bloco while. Se a condição fo
 então executa cada um dos comandos do bloco subordinado WHILE 
 */ 
 
-//clrscr();  //comando para limpar a tela // clear screen (limpar tela)
 
 #include <stdio.h>
 
 int main(){
     int num;
     char escolha;
+    system("clear");
 
     do{
         printf("\n\t\tMenu Salarial\n");
-        printf("\nSobre qual cargo você deseja saber o Salario?\n\n1- Diretor\n2- Gerente\n3- Analista\n4- Assistente\n5- Auxiliar\n\nDigite 0 para voltar ao menu principal!\n\nSua Escolha: ");
+        printf("\nSobre qual cargo você deseja saber o Salario?\n\n1- Diretor\n2- Gerente\n3- Analista\n4- Assistente\n5- Auxiliar\n\nSua Escolha: ");
         scanf("%d", &num);
 
         switch (num){
@@ -35,8 +35,7 @@ int main(){
             case 3:
                 printf("\n\nO Salario do Analista é de: R$8.000,00\n\n");
 
-                break;
-            
+
             case 4:
                 printf("\n\nO Salário do Assistente é de: R$4.000.00\n\n");
 
