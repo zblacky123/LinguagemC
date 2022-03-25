@@ -4,7 +4,7 @@
 void main(){
 
     int destino, trecho;
-    system("clear");
+   
     printf("Informe o Destino Conforme a Tabela Abaixo: \n");
     printf("1- Regiao Norte \t 3- Centro-Oeste: \n");
     printf("2- Regiao Nordeste \t 4- Regiao Sul \n");
