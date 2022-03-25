@@ -13,10 +13,12 @@
             int  senha;
             int  rsenha;
             int  idade;
+
         };
 
         struct cliente novoCliente, *pNovoCliente;
         pNovoCliente = &novoCliente;
+        system ("clear");
 
         printf("Informe o Nome do Cliente: ");
         scanf("%s", &pNovoCliente->nome);
