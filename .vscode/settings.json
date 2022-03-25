@@ -2,5 +2,6 @@
     "files.associations": {
         "Primeiro.C": "cpp",
         "stdio.h": "c"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
