@@ -29,7 +29,7 @@ void pularLinha( int qtdVezes){
 
 }
 
-void comparar(int v1, int v2){
+char comparar(int v1, int v2){
     if (v1 > v2){
         printf ("O Primeiro Número é Maior que o Segundo");
     }
@@ -42,7 +42,7 @@ void comparar(int v1, int v2){
 
 }
 
-void main(){
+ main(){
 
     int n1, n2;
 
