@@ -35,8 +35,13 @@
         printf("Confirme sua Senha: ");
         scanf("%d", &pNovoCliente->rsenha);
 
-
         printf("Nos Informe a Idade do Cliente: ");
         scanf("%d", &pNovoCliente->idade);
-        
+
+        printf("\n");
+
+        printf("O Nome do Cliente é: %s\n", pNovoCliente->nome);
+        printf("O Email do Cliente é: %s\n", pNovoCliente->email);
+        printf("A IDade do Cliente é: %d\n", pNovoCliente->idade);
+    
     }
