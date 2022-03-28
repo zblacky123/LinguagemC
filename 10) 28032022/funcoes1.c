@@ -29,15 +29,15 @@ void pularLinha( int qtdVezes){
 
 }
 
-char comparar(int v1, int v2){
+char* comparar(int v1, int v2){
     if (v1 > v2){
-        printf ("O Primeiro Número é Maior que o Segundo");
+        return "O Primeiro Número é Maior que o Segundo";
     }
     else if (v1 == v2){
-        printf("Os Número São Iguais");
+       return "Os Número São Iguais";
     }
     else{
-        printf("O Segundo Número é Maior que o Primeiro");
+        return "O Segundo Número é Maior que o Primeiro";
     }
 
 }
@@ -50,8 +50,8 @@ char comparar(int v1, int v2){
     separadorHT();
     pularLinha(2);
     printf("\n\tPrograma que exibe uma Mensagem\n");
-    pularLinha(2); //função criada na linha 24 para pular linha usando estrutura de repetição FOR
-    separadorHT(); //chamando a função separador HT ou separado de Linha, o mesmo para a linha 34 
+    pularLinha(2); 
+    separadorHT(); 
     
     printf("Digite um número: ");
     scanf("%d", &n1);
@@ -61,7 +61,7 @@ char comparar(int v1, int v2){
 
     pularLinha(1);
 
-    comparar(n1,n2);
+    printf(comparar(n1,n2));
 
     pularLinha(1);
 
