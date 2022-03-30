@@ -11,7 +11,7 @@ int main(){
     printf("Digite o Valor do Salario do Funcionário: ");
     scanf("%f", &salFunc);
 
-    if(salFunc > LIMITE){
+   separador();    if(salFunc > LIMITE){
         printf("O Desconto será de %.2f\n\n", salFunc*0.05);
         printf("O Valor Final é: %.2f\n", salFunc- (salFunc * 0.05) );
 
