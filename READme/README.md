@@ -71,3 +71,10 @@ ele executa um bloco e testa a condição, caso seja falsa vai para a próxima i
 
 
 ## Atividade 2
+### Continuando a criação de bibliotecas para utilizar em um arquivo final, porém, utilizando a estrutura ARRAY para calculo
+
+- ARRAY: É uma coleção de um ou mais objetos, do mesmo tipo, armazenados em endereços adjacentes de memória. Cada objeto é chamado de elemento ARRAY, ou seja, a principal finalidade é guardar informações de modo ordenado, para cada linha, uma informação. Um exemplo de array é ao guardar nomes de pessoas presentes em sala de aula.
+
+
+
+
